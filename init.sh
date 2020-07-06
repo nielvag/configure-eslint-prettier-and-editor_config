@@ -21,7 +21,7 @@ cp configure-eslint-prettier-and-editor_config/files/.prettierrc .
 
 bold=$(tput bold)
 normal=$(tput sgr0)
-echo "Delete configuration files? ${bold}Y${normal} n"
+echo "Do you want to delete configuration files? [${bold}Y${normal}/n]"
 
 read response
 
